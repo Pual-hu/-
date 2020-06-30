@@ -1,0 +1,18 @@
+[ 2020-06-25T18:14:17+08:00 ] ::1 /gitPhp/Public/upload/song/src/%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E7%A8%BB%E9%A6%99%20(%E8%AF%95%E5%90%AC%E7%89%88).mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000336s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-25T18:16:38+08:00 ] ::1 /gitPhp/Public/upload/song/src/%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E7%A8%BB%E9%A6%99%20(%E8%AF%95%E5%90%AC%E7%89%88).mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000953s ]
+ERR: 无法加载模块:Public
+
+[ 2020-06-25T18:17:17+08:00 ] ::1 /gitPhp/Public/upload/song/src/%E5%91%A8%E6%9D%B0%E4%BC%A6%20-%20%E7%A8%BB%E9%A6%99%20(%E8%AF%95%E5%90%AC%E7%89%88).mp3
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+ERR: 无法加载模块:Public
+
