@@ -1,0 +1,80 @@
+#biao2 {
+	border: 1px solid #D1D1D1;
+}
+.bulw-small a
+{
+	position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-top: 25px;
+	margin-right: 5px;
+    color: black;
+}
+.bul-small a:nth-child(1)
+{
+    font-weight: bold;
+}
+.list-group-item img {
+	position: relative;
+}
+.list-group-item small {
+	color: #BBBBBB;
+	position: absolute;
+	top: 55%;
+	left: 100px;
+}
+.list-group-item p {
+	position: absolute;
+	left: 100px;
+	top: 30%;
+	font-size: 15px;
+}
+.buo-small {
+	z-index: 1;
+	position: relative;
+	
+	margin-top: 25px;
+	margin-right: 5px;
+	
+}
+.buo-small small {
+	position: absolute;
+	left: 100px;
+	top: 20px;
+}
+#bbtn{
+	margin-left: 30px;
+	font-size: 20px;
+}
+.itaemb {
+	margin-top: 20px;
+	color: #B1B1B1;
+}
+.lieb1 {
+	display: inline-block;
+	margin-left: 50px;
+}
+
+.tubiaol span {
+	left: -40px;
+	top: -20px;
+	padding: 10px;
+	z-index: 1;
+	display: inline;
+	list-style: none;
+}
+.tr-wo {
+	position: relative;
+}
+.tubiaol {
+	opacity: 0;
+}
+.tubiaol:hover {
+	opacity: 1;
+}
+.tr-wo:hover {
+	color:white;
+}
+.table {
+font-size:large;
+}

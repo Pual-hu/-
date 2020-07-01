@@ -1,0 +1,50 @@
+*{
+	margin: 0;
+   padding: 0;
+	}
+	.udi a {
+		cursor: pointer;
+		color: #111111;
+	}
+.udl a {
+	cursor: pointer;
+	color: #111111;
+}
+.bol1{
+	margin-top: 20px;
+}
+.bol1 ul li{
+	list-style: none;
+	display: inline;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	padding-left: 30px;
+	font-size: large;
+	color: #555555;
+	font-weight: 50;
+}
+ #firl {
+	 background-color: yellow;
+	 border-radius: 3.125rem;
+	 text-align: center;
+ }
+ .udl {
+	 margin-top: 20px;
+ }
+ 
+ .im1 img{
+	 border-radius: 50%;
+	 width: 150px;
+	 height: 150px;
+	 cursor: pointer;
+	 overflow:hidden;
+ }
+.im2:hover {
+	border: 1px solid #AEC8CA;
+	z-index: 10;
+}
+.ziti {
+	position: relative;
+	top: 20px;
+	left: 45px;
+}
