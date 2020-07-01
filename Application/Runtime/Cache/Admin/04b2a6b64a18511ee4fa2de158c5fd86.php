@@ -70,7 +70,7 @@
 							    </a>
 							    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 							        <li role="presentation">
-							            <a role="menuitem" tabindex="-1" href="/gitPhp/index.php/Admin/Song/index">添加歌曲</a>
+							            <a role="menuitem" tabindex="-1" href="/gitPhp/index.php/Admin/Song/index">添加/修改歌曲</a>
 							            <a role="menuitem" tabindex="-1" href="#">删除歌曲</a>
 							        </li>
 							    </ul>
@@ -124,7 +124,7 @@
 				
 <div class="col-lg-12">
 	<table class="table">
-	  <caption>轮播图信息</caption>
+	  <caption>广告图片信息</caption>
 	  <thead>
 	    <tr>
 	      <th>图片描述</th>

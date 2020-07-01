@@ -70,8 +70,8 @@
 							    </a>
 							    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 							        <li role="presentation">
+							            <a role="menuitem" tabindex="-1" href="/gitPhp/index.php/Admin/Song/index">删除/修改歌曲</a>
 							            <a role="menuitem" tabindex="-1" href="#">添加歌曲</a>
-							            <a role="menuitem" tabindex="-1" href="#">删除歌曲</a>
 							        </li>
 							    </ul>
 							</li>

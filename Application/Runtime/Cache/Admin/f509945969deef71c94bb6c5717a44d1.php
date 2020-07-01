@@ -70,8 +70,8 @@
 							    </a>
 							    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
 							        <li role="presentation">
-							            <a role="menuitem" tabindex="-1" href="/gitPhp/index.php/Admin/Song/index">添加歌曲</a>
-							            <a role="menuitem" tabindex="-1" href="#">删除歌曲</a>
+							            <a role="menuitem" tabindex="-1" href="/gitPhp/index.php/Admin/Song/index">删除/修改歌曲</a>
+							            <a role="menuitem" tabindex="-1" href="#">添加歌曲</a>
 							        </li>
 							    </ul>
 							</li>
@@ -122,9 +122,93 @@
 			</div>
 			<div class="col-lg-9 content">
 				
-<div>
-	音乐展示
+<div class="col-lg-12">
+	<table class="table">
+	  <caption>歌曲信息</caption>
+	  <thead>
+	    <tr>
+	      <th>歌曲id</th>
+	      <th>歌曲名称</th>
+	      <th>歌手</th>
+	      <th>封面</th>
+	      <th>歌词文件名</th>
+	      <th>歌曲文件名</th>
+	      <th>修改</th>
+	      <th>删除</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  	<?php
+ foreach($list as $value){ $i = $value["id"]; echo "<tr><td>$value[id]</td><td>$value[name]</td><td>$value[singer_name]</td><td>$value[profile]</td><td>$value[lyric]</td><td>$value[src]</td><td>
+				<button class='loopbuton' data-id = '$value[id]' data-toggle='modal' data-target='#myModal'>修改</button></td>
+				<td>
+				<button class='removebuton' data-id = '$value[id]' data-toggle='modal' data-target='#myModal2'>删除</button></td>
+			</tr>"; } ?>
+	  </tbody>
+	</table>
+	<div class="pagelist">
+	  	<?php echo $page; ?>
+	</div>
 </div>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form method="post" action="/gitPhp/index.php/Admin/Song/modify" enctype="multipart/form-data">
+			<div class="modal-body form-group" style="height: 400px;">
+					歌曲资源：<input type="file" name="src" /><br>
+					歌曲歌词：<input type="file" name="lyric" /><br>
+					歌曲封面：<input type="file" name="profile" /><br>
+					歌曲名称：<input type="text" class="form-control" name="name"><br>
+					歌手：<input type="text" class="form-control" name="singer_name"><br>
+					<input type="hidden" value = "" name="id">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+				</button>
+				<button type="submit" class="btn btn-primary btn-sub">
+					提交更改
+				</button>
+			</div>
+			</form>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form method="post" action="/gitPhp/index.php/Admin/Song/remove" enctype="multipart/form-data">
+			<div class="modal-body form-group" style="height: 200px;">
+				<h3>是否确定删除歌曲</h3>
+				<input type="hidden" value = "" name="id">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">取消
+				</button>
+				<button type="submit" class="btn btn-primary btn-sub">
+					确定
+				</button>
+			</div>
+			</form>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+<script type="text/javascript">
+	$(function(){
+		var btn = $(".loopbuton");
+		var postId = $(document.getElementsByName("id"));
+		btn.click(function(){
+			var index = $(this).attr("data-id");
+			postId.prop({"value":index});
+		})
+		var remove = $(".removebuton");
+		remove.click(function(){
+			var index = $(this).attr("data-id");
+			postId.prop({"value":index});
+			console.log(postId.val());
+		})
+	})
+</script>
 			</div>
 		</div>
 		<div class="row">

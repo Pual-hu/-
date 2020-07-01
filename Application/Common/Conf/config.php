@@ -13,8 +13,8 @@ return array(
 	'DB_CHARSET' => 'utf8',
 	//URL的模式
 	'URL_MODEL' => 1,
-	 // 'DEFAULT_MODULE' => 'Home',
-	 // 'DEFAULT_CONTROLLER' => 'Index',
-	 // 'DEFAULT_ACTION' => 'getPlayList',
+	 'DEFAULT_MODULE' => 'Admin',
+	 'DEFAULT_CONTROLLER' => 'Index',
+	 'DEFAULT_ACTION' => 'index',
 	 'URL_ROUTER_ON' => true,
 );
