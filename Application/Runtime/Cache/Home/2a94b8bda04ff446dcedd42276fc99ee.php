@@ -3,18 +3,18 @@
 <head>
 	<meta charset="UTF-8">
 	<title>欣欣音乐</title>
-	<link rel="shortcut icon" href="/gitPhp/Public/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="/gitPhp/Public/css/base.css">
-	<link rel="stylesheet" type="text/css" href="/gitPhp/Public/css/index.css">
+	<link rel="shortcut icon" href="/test/Public/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="/test/Public/css/base.css">
+	<link rel="stylesheet" type="text/css" href="/test/Public/css/index.css">
 	<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1888217_0v0lo3u8wanq.css">
-	<script type="text/javascript" src="/gitPhp/Public/js/jquery-3.4.1.js"></script>
-	<script type="text/javascript" src="/gitPhp/Public/js/index.js"></script>
+	<script type="text/javascript" src="/test/Public/js/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="/test/Public/js/index.js"></script>
 </head>
 <body>
 		<!-- 首页导航栏 -->
 		<div class="nav" id="nav">
 			<nav>
-				<a class="logo" href="#"><h3><img src="/gitPhp/Public/img/音乐 (1).png" /><b>欣欣音乐</b></h3></a>
+				<a class="logo" href="#"><h3><img src="/test/Public/img/音乐 (1).png" /><b>欣欣音乐</b></h3></a>
 				<ul class="clearfix">
 					<li><a href="javascript:void(0)">发现音乐</a></li>
 					<li><a href="javascript:void(0)">下载客户端</a></li>
@@ -35,54 +35,54 @@
 		<div class="content typepage">
 			<!-- 小菜单 -->
 			<div class="nav-small">
-					<a class="old" href="/gitPhp/index.php/Home/Index/index">推荐</a>
-					<a  href="/gitPhp/index.php/Home/Index/paihang">排行榜</a>
-					<a  href="/gitPhp/index.php/Home/Index/singer">歌手</a>
-					<a  href="/gitPhp/index.php/Home/Index/gedan">歌单</a>
-					<a  href="/gitPhp/index.php/Home/Index/mv">MV</a>
+					<a class="old" href="/test/index.php/Home/Index/index">推荐</a>
+					<a  href="/test/index.php/Home/Index/paihang">排行榜</a>
+					<a  href="/test/index.php/Home/Index/singer">歌手</a>
+					<a  href="/test/index.php/Home/Index/gedan">歌单</a>
+					<a  href="/test/index.php/Home/Index/mv">MV</a>
 			</div>
 			<!-- 轮播图 -->
 			<div class="loop typepage">
 				<ul class="loop-img">
 					<li>
 						<a href="javascript:;">
-						<img src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
-						<img class="blur" src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
+						<img src="/test/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
+						<img class="blur" src="/test/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
 						</a>
 					</li>
 					<li>
 						<a href="javascript:;">
-						<img src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
-						<img class="blur" src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
+						<img src="/test/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
+						<img class="blur" src="/test/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
 						</a>
 					</li>
 					<li><a href="javascript:;">
-						<img src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[1]['src']); ?>">
-						<img class="blur" src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[1]['src']); ?>">
+						<img src="/test/Public/upload/options/loop/<?php echo ($loopImg[1]['src']); ?>">
+						<img class="blur" src="/test/Public/upload/options/loop/<?php echo ($loopImg[1]['src']); ?>">
 						</a>
 					</li>
 					<li>
 						<a href="javascript:;">
-						<img src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[2]['src']); ?>">
-						<img class="blur" src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[2]['src']); ?>">
+						<img src="/test/Public/upload/options/loop/<?php echo ($loopImg[2]['src']); ?>">
+						<img class="blur" src="/test/Public/upload/options/loop/<?php echo ($loopImg[2]['src']); ?>">
 						</a>
 					</li>
 					<li>
 						<a href="javascript:;">
-						<img src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[3]['src']); ?>">
-						<img class="blur" src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[3]['src']); ?>">
+						<img src="/test/Public/upload/options/loop/<?php echo ($loopImg[3]['src']); ?>">
+						<img class="blur" src="/test/Public/upload/options/loop/<?php echo ($loopImg[3]['src']); ?>">
 						</a>
 					</li>
 					<li>
 						<a href="javascript:;">
-						<img src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
-						<img class="blur" src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
+						<img src="/test/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
+						<img class="blur" src="/test/Public/upload/options/loop/<?php echo ($loopImg[4]['src']); ?>">
 						</a>
 					</li>
 					<li>
 						<a href="javascript:;">
-						<img src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
-						<img class="blur" src="/gitPhp/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
+						<img src="/test/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
+						<img class="blur" src="/test/Public/upload/options/loop/<?php echo ($loopImg[0]['src']); ?>">
 						</a>
 					</li>
 				</ul>
@@ -128,7 +128,7 @@
 						<li>
 							<div class="limit">
 							<a href="javascript:;">
-							<img src="/gitPhp/Public/img/<?php echo ($songList[2]); ?>">
+							<img src="/test/Public/img/<?php echo ($songList[2]); ?>">
 							</a>
 							</div>
 							<span class="listname">歌单一</span>
@@ -137,7 +137,7 @@
 						</li>
 						<li><div class="limit">
 							<a href="javascript:;">
-							<img src="/gitPhp/Public/img/recommend2.jpg">
+							<img src="/test/Public/img/recommend2.jpg">
 							</a>
 							</div>
 							<span>这里是</span>
@@ -146,7 +146,7 @@
 						</li>
 						<li><div class="limit">
 							<a href="javascript:;">
-							<img src="/gitPhp/Public/img/recommend3.jpg">
+							<img src="/test/Public/img/recommend3.jpg">
 							</a>
 							</div>
 							<span>这里是</span>
@@ -155,7 +155,7 @@
 						</li>
 						<li><div class="limit">
 							<a href="javascript:;">
-							<img src="/gitPhp/Public/img/recommend4.jpg">
+							<img src="/test/Public/img/recommend4.jpg">
 							</a>
 							</div>
 							<span>这里是</span>
@@ -163,7 +163,7 @@
 							<span class="play iconfont"></span>
 						<li><div class="limit">
 							<a href="javascript:;">
-							<img src="/gitPhp/Public/img/recommend5.jpg">
+							<img src="/test/Public/img/recommend5.jpg">
 							</a>
 							</div>
 							<span>这里是</span>
@@ -176,8 +176,8 @@
 			<div class="activity typepage">
 				<h1>精选活动</h1>
 				<div class="activity-img">
-					<a href="javascript:;"><img src="/gitPhp/Public/img/activity1.jpg"></a>
-					<a href="javascript:;"><img src="/gitPhp/Public/img/activity2.jpg"></a>
+					<a href="javascript:;"><img src="/test/Public/img/activity1.jpg"></a>
+					<a href="javascript:;"><img src="/test/Public/img/activity2.jpg"></a>
 				</div>
 			</div>
 			<!-- 排行榜 -->
@@ -186,27 +186,27 @@
 				<ul class="ranking-img">
 				<li>
 					<div class="bgimg">
-					<img src="/gitPhp/Public/img/paihang1.png">
+					<img src="/test/Public/img/paihang1.png">
 					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
 					</div>
 					<div class="text">
 						<ul>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming1.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming1.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming2.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming2.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming3.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming3.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
@@ -231,27 +231,27 @@
 				</li>
 				<li>
 					<div class="bgimg">
-					<img src="/gitPhp/Public/img/paihang2.png">
+					<img src="/test/Public/img/paihang2.png">
 					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
 					</div>
 					<div class="text">
 						<ul>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming1.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming1.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming2.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming2.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming3.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming3.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
@@ -276,27 +276,27 @@
 				</li>
 				<li>
 					<div class="bgimg">
-					<img src="/gitPhp/Public/img/paihang3.png">
+					<img src="/test/Public/img/paihang3.png">
 					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
 					</div>
 					<div class="text">
 						<ul>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming1.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming1.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming2.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming2.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming3.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming3.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
@@ -321,27 +321,27 @@
 				</li>
 				<li>
 					<div class="bgimg">
-					<img src="/gitPhp/Public/img/paihang4.png">
+					<img src="/test/Public/img/paihang4.png">
 					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
 					</div>
 					<div class="text">
 						<ul>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming1.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming1.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming2.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming2.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming3.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming3.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
@@ -366,27 +366,27 @@
 				</li>
 				<li>
 					<div class="bgimg">
-					<img src="/gitPhp/Public/img/paihang5.png">
+					<img src="/test/Public/img/paihang5.png">
 					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
 					</div>
 					<div class="text">
 						<ul>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming1.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming1.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming2.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming2.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
 								</div>
 							</li>
 							<li class="clearfix">
-								<div class="paiming"><img class="" src="/gitPhp/Public/img/paiming3.png"></div>
+								<div class="paiming"><img class="" src="/test/Public/img/paiming3.png"></div>
 								<div class="text-decoration">
 									<a href="javascript:;">旧梦一场</a><br>
 									<a href="javascript:;">阿悠悠</a>
@@ -423,36 +423,36 @@
 				</ul>
 				<ul class="singer-img">
 					<li>
-						<img src="/gitPhp/Public/img/singer1.jpg">
+						<img src="/test/Public/img/singer1.jpg">
 						<div>
 						<a href="javascript:;">周杰伦</a> <br>
 						<a href="javascript:;">1550首歌曲</a>
 						</div>
 					</li>
 					<li>
-						<img src="/gitPhp/Public/img/singer2.jpg">
+						<img src="/test/Public/img/singer2.jpg">
 						<div>
 						<a href="javascript:;">阿悠悠</a> <br>
 						<a href="javascript:;">90首歌曲</a>
 						</div></li>
-					<li><img src="/gitPhp/Public/img/singer3.jpg">
+					<li><img src="/test/Public/img/singer3.jpg">
 						<div>
 						<a href="javascript:;">海来阿木</a> <br>
 						<a href="javascript:;">98首歌曲</a>
 						</div>
 					</li>
-					<li><img src="/gitPhp/Public/img/singer4.jpg">
+					<li><img src="/test/Public/img/singer4.jpg">
 						<div>
 						<a href="javascript:;">G.E.M邓紫棋</a> <br>
 						<a href="javascript:;">986首歌曲</a>
 						</div></li>
-					<li><img src="/gitPhp/Public/img/singer5.jpg">
+					<li><img src="/test/Public/img/singer5.jpg">
 						<div>
 						<a href="javascript:;">小阿枫</a> <br>
 						<a href="javascript:;">367首歌曲</a>
 						</div>
 					</li>
-					<li><img src="/gitPhp/Public/img/singer6.jpg">
+					<li><img src="/test/Public/img/singer6.jpg">
 						<div>
 						<a href="javascript:;">等什么君</a> <br>
 						<a href="javascript:;">32首歌曲</a>
@@ -466,7 +466,7 @@
 				<div class="radio">
 					<ul class="clearfix">
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -474,7 +474,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -482,7 +482,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -490,7 +490,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -498,7 +498,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -506,7 +506,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -514,7 +514,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -522,7 +522,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -530,7 +530,7 @@
 							<span class="iconfont icon-bofang"></span>
 						</li>
 						<li>
-							<img src="/gitPhp/Public/img/radio1.jpg">
+							<img src="/test/Public/img/radio1.jpg">
 							<div class="text-decoration">
 								<a href="javascript:;">梦游记</a><br>
 								<a href="javascript:;">DJ艳梦</a>
@@ -613,7 +613,7 @@
 					<span class="iconfont icon-kaisuo1"></span>
 				</div>
 				<div class="progress left">
-					<img  class="left" src="/gitPhp/Public/upload/song/profile/" />
+					<img  class="left" src="/test/Public/upload/song/profile/" />
 					<div class="left">
 						<div class="clearfix">
 							<div class="name left"></div>
@@ -652,10 +652,10 @@
 				</div>
 			</div>
 		</div>
-		<audio class="audioplay" src="/gitPhp/Public/upload/song/src/周杰伦-稻香.mp3" controls></audio>
+		<audio class="audioplay" src="/test/Public/upload/song/src/周杰伦-稻香.mp3" controls></audio>
 		<script type="text/javascript">
-			const MODEL = "/gitPhp/index.php/Home";
-			const PUBLIC = "/gitPhp/Public";
+			const MODEL = "/test/index.php/Home";
+			const PUBLIC = "/test/Public";
 		</script>
 </body>
 </html>
