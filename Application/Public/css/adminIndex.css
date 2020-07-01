@@ -1,0 +1,86 @@
+*{
+	margin: 0px;
+	padding: 0px ;
+}
+.header{
+	height: 80px;
+	background-color: #eeeeee;
+}
+.header-nav{
+	height: 80px;
+	background-color: #337ab7;
+}
+.header-title{
+	height: 80px;
+}
+.header-title h3{
+	margin-left: 20px;
+}
+.header-search{
+	position: relative;
+	margin-top: 20px;
+}
+.header-search .glyphicon{
+	position: absolute;
+	top: 20%;
+	left: 95%;
+}
+.header-user{
+	padding-right: 80px;
+}
+.header-user .dropdown{
+	height: 80px;
+}
+.header-user .dropdown-toggle{
+	float: right;
+	width: 50px;
+	height: 50px;
+	margin-top: 15px;
+	background-color: red;
+	border-radius: 50%;
+}
+.header-user .caret{
+	float: right;
+	margin-top: 50px;
+}
+.header-user .dropdown-menu{
+	left: 89%;
+	top: 85%;
+	min-width: 100px;
+}
+.nav{
+	height: 540px;
+	background-color: #337ab7;
+}
+.nav .row{
+	height: 50px;
+}
+.nav .row1 .dropdown-toggle{
+	height: 50px;
+	color: #fff;
+}
+.nav .row1 a:hover{
+	color: green;
+	text-decoration: none;
+}
+.nav .row1 .dropdown .caret{
+	float: right;
+	margin-top: 15px;
+}
+.nav .row1 .dropdown .dropdown-toggle{
+	line-height: 30px;
+}
+.nav .row1 .dropdown ul{
+	width: 100%;
+}
+.nav .row1 .dropdown ul{
+	padding: 0px;
+}
+.content{
+	height: 540px;
+	background-color: #fff;
+}
+.footer{
+	height: 132px;
+	background-color: black;
+}

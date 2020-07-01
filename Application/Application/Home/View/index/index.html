@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>欣欣音乐</title>
+	<link rel="shortcut icon" href="__PUBLIC__/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/base.css">
+	<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+	<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1888217_0v0lo3u8wanq.css">
+	<script type="text/javascript" src="__PUBLIC__/js/jquery-3.4.1.js"></script>
+	<script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+</head>
+<body>
+		<!-- 首页导航栏 -->
+		<div class="nav" id="nav">
+			<nav>
+				<a class="logo" href="#"><h3><img src="__PUBLIC__/img/音乐 (1).png" /><b>欣欣音乐</b></h3></a>
+				<ul class="clearfix">
+					<li><a href="javascript:void(0)">发现音乐</a></li>
+					<li><a href="javascript:void(0)">下载客户端</a></li>
+					<li><a href="javascript:void(0)">音乐现场</a></li>
+					<li><a href="javascript:void(0)">VIP会员</a></li>
+					<li><a href="javascript:void(0)">更多</a></li>
+				</ul>
+				<div class="search">
+					<form>
+						<input type="text" placeholder="搜索音乐/歌单/歌名" />
+						<div class="search-icon"></div>
+					</form>
+				</div>
+				<a class="login" href="javascript:void(0)">登录/注册</a>
+			</nav>
+		</div>
+		<!-- 首页主体 -->
+		<div class="content typepage">
+			<!-- 小菜单 -->
+			<div class="nav-small">
+					<a class="old" href="javascript:void(0)">推荐</a>
+					<a  href="javascript:void(0)">排行榜</a>
+					<a  href="javascript:void(0)">歌手</a>
+					<a  href="javascript:void(0)">歌单</a>
+					<a  href="javascript:void(0)">MV</a>
+			</div>
+			<!-- 轮播图 -->
+			<div class="loop typepage">
+				<ul class="loop-img">
+					<li>
+						<a href="javascript:;">
+						<img src="__PUBLIC__/upload/options/loop/{$loopImg[4]['src']}">
+						<img class="blur" src="__PUBLIC__/upload/options/loop/{$loopImg[4]['src']}">
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<img src="__PUBLIC__/upload/options/loop/{$loopImg[0]['src']}">
+						<img class="blur" src="__PUBLIC__/upload/options/loop/{$loopImg[0]['src']}">
+						</a>
+					</li>
+					<li><a href="javascript:;">
+						<img src="__PUBLIC__/upload/options/loop/{$loopImg[1]['src']}">
+						<img class="blur" src="__PUBLIC__/upload/options/loop/{$loopImg[1]['src']}">
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<img src="__PUBLIC__/upload/options/loop/{$loopImg[2]['src']}">
+						<img class="blur" src="__PUBLIC__/upload/options/loop/{$loopImg[2]['src']}">
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<img src="__PUBLIC__/upload/options/loop/{$loopImg[3]['src']}">
+						<img class="blur" src="__PUBLIC__/upload/options/loop/{$loopImg[3]['src']}">
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<img src="__PUBLIC__/upload/options/loop/{$loopImg[4]['src']}">
+						<img class="blur" src="__PUBLIC__/upload/options/loop/{$loopImg[4]['src']}">
+						</a>
+					</li>
+					<li>
+						<a href="javascript:;">
+						<img src="__PUBLIC__/upload/options/loop/{$loopImg[0]['src']}">
+						<img class="blur" src="__PUBLIC__/upload/options/loop/{$loopImg[0]['src']}">
+						</a>
+					</li>
+				</ul>
+				<div class="arrow arrow-left">
+					<span class="iconfont icon-Icon_Back"></span>
+				</div>
+				<div class="arrow arrow-right">
+					<sapn class="iconfont icon-Icon_right"></span>
+				</div>
+				<ul class="loop-circle clearfix">
+					<li data-index = "1"></li>
+					<li data-index = "2"></li>
+					<li data-index = "3"></li>
+					<li data-index = "4"></li>
+					<li data-index = "5"></li>
+				</ul>
+				<div class="download">
+					<ul>
+						<li><i class="iconfont icon-android"></i>下载Android版</li>
+						<li></li>
+						<li><i class="iconfont icon-windows"></i>下载PC版</li>
+						<li></li>
+						<li><i class="iconfont icon-apple"></i>下载iPhone版</li>
+						<li></li>
+						<li><i class="iconfont icon-diannao"></i>下载其他版</li>
+					</ul>
+				</div>
+			</div>
+			<!-- 菜单分类 -->
+			<div class="recommend-song typepage">
+				<div class="r-nav">
+					<h1>推荐歌单</h1>
+					<ul>
+						<li><a class="old a-font" href="javascript:;">每日推荐</a></li>
+						<li><a href="javascript:;">翻唱</a></li>
+						<li><a href="javascript:;">网络</a></li>
+						<li><a href="javascript:;">伤感</a></li>
+						<li><a href="javascript:;">更多</a></li>
+					</ul>
+				</div>
+				<div class="r-img">
+					<ul class="clearfix">
+						<li>
+							<div class="limit">
+							<a href="javascript:;">
+							<img src="__PUBLIC__/img/{$songList[2]}">
+							</a>
+							</div>
+							<span class="listname">歌单一</span>
+							<span><i class="iconfont icon-arrow-right"></i><b>{$songList[1]}</b><i style="font-style: normal;">万</i></span>
+							<span class="play iconfont"></span>
+						</li>
+						<li><div class="limit">
+							<a href="javascript:;">
+							<img src="__PUBLIC__/img/recommend2.jpg">
+							</a>
+							</div>
+							<span>这里是</span>
+							<span><i class="iconfont icon-arrow-right"></i><b>1800万</b></span>
+							<span class="play iconfont"></span>
+						</li>
+						<li><div class="limit">
+							<a href="javascript:;">
+							<img src="__PUBLIC__/img/recommend3.jpg">
+							</a>
+							</div>
+							<span>这里是</span>
+							<span><i class="iconfont icon-arrow-right"></i><b>1800万</b></span>
+							<span class="play iconfont"></span>
+						</li>
+						<li><div class="limit">
+							<a href="javascript:;">
+							<img src="__PUBLIC__/img/recommend4.jpg">
+							</a>
+							</div>
+							<span>这里是</span>
+							<span><i class="iconfont icon-arrow-right"></i><b>1800万</b></span>
+							<span class="play iconfont"></span>
+						<li><div class="limit">
+							<a href="javascript:;">
+							<img src="__PUBLIC__/img/recommend5.jpg">
+							</a>
+							</div>
+							<span>这里是</span>
+							<span><i class="iconfont icon-arrow-right"></i><b>1800万</b></span>
+							<span class="play iconfont"></span>
+					</ul>
+				</div>
+			</div>
+			<!-- 精选活动 -->
+			<div class="activity typepage">
+				<h1>精选活动</h1>
+				<div class="activity-img">
+					<a href="javascript:;"><img src="__PUBLIC__/img/activity1.jpg"></a>
+					<a href="javascript:;"><img src="__PUBLIC__/img/activity2.jpg"></a>
+				</div>
+			</div>
+			<!-- 排行榜 -->
+			<div class="ranking">
+				<div class="title"><b>排行榜</b><a href="javascript:;">更多</a></div>
+				<ul class="ranking-img">
+				<li>
+					<div class="bgimg">
+					<img src="__PUBLIC__/img/paihang1.png">
+					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
+					</div>
+					<div class="text">
+						<ul>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming1.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming2.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming3.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>4</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>5</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="bgimg">
+					<img src="__PUBLIC__/img/paihang2.png">
+					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
+					</div>
+					<div class="text">
+						<ul>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming1.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming2.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming3.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>4</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>5</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="bgimg">
+					<img src="__PUBLIC__/img/paihang3.png">
+					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
+					</div>
+					<div class="text">
+						<ul>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming1.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming2.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming3.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>4</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>5</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="bgimg">
+					<img src="__PUBLIC__/img/paihang4.png">
+					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
+					</div>
+					<div class="text">
+						<ul>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming1.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming2.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming3.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>4</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>5</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				<li>
+					<div class="bgimg">
+					<img src="__PUBLIC__/img/paihang5.png">
+					<a href="javascript:;"><span class="iconfont icon-1_music94"></span></a>
+					</div>
+					<div class="text">
+						<ul>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming1.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming2.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><img class="" src="__PUBLIC__/img/paiming3.png"></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>4</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+							<li class="clearfix">
+								<div class="paiming"><b>5</b></div>
+								<div class="text-decoration">
+									<a href="javascript:;">旧梦一场</a><br>
+									<a href="javascript:;">阿悠悠</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</li>
+				</ul>
+			</div>
+			<!-- 歌手推荐 -->
+			<div class="recommend-singer">
+				<h1>推荐歌手</h1>
+				<ul class="singer-nav clearfix">
+					<li><a href="javascript:;">华语</a></li>
+					<li><a href="javascript:;">欧美</a></li>
+					<li><a href="javascript:;">日韩</a></li>
+					<li><a href="javascript:;">组合</a></li>
+					<li><a href="javascript:;">更多</a></li>
+				</ul>
+				<ul class="singer-img">
+					<li>
+						<img src="__PUBLIC__/img/singer1.jpg">
+						<div>
+						<a href="javascript:;">周杰伦</a> <br>
+						<a href="javascript:;">1550首歌曲</a>
+						</div>
+					</li>
+					<li>
+						<img src="__PUBLIC__/img/singer2.jpg">
+						<div>
+						<a href="javascript:;">阿悠悠</a> <br>
+						<a href="javascript:;">90首歌曲</a>
+						</div></li>
+					<li><img src="__PUBLIC__/img/singer3.jpg">
+						<div>
+						<a href="javascript:;">海来阿木</a> <br>
+						<a href="javascript:;">98首歌曲</a>
+						</div>
+					</li>
+					<li><img src="__PUBLIC__/img/singer4.jpg">
+						<div>
+						<a href="javascript:;">G.E.M邓紫棋</a> <br>
+						<a href="javascript:;">986首歌曲</a>
+						</div></li>
+					<li><img src="__PUBLIC__/img/singer5.jpg">
+						<div>
+						<a href="javascript:;">小阿枫</a> <br>
+						<a href="javascript:;">367首歌曲</a>
+						</div>
+					</li>
+					<li><img src="__PUBLIC__/img/singer6.jpg">
+						<div>
+						<a href="javascript:;">等什么君</a> <br>
+						<a href="javascript:;">32首歌曲</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+			<!-- 主播电台 -->
+			<div>
+				<h1>主播电台</h1>
+				<div class="radio">
+					<ul class="clearfix">
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+						<li>
+							<img src="__PUBLIC__/img/radio1.jpg">
+							<div class="text-decoration">
+								<a href="javascript:;">梦游记</a><br>
+								<a href="javascript:;">DJ艳梦</a>
+							</div>
+							<span class="iconfont icon-bofang"></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!-- 尾部 -->
+		<div class="footer">
+			<div class="footer-first">
+			<div class="typepage">
+				<dl>
+					<dt>下载欣欣客户端</dt>
+					<dd class="clearfix footer-down">
+						<div>
+							<span class="iconfont icon-android"></span>
+							<p>Android</p>
+						</div>
+						<div>
+							<span class="iconfont icon-windows"></span>
+							<p>PC版</p>
+						</div>
+						<div>
+							<span class="iconfont icon-apple"></span>
+							<p>iPhone版</p>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>协议与声明</dt>
+					<dd class="declaration">
+						<div>
+						<p class="clearfix"><span>用户服务协议</span><span>免责声明</span></p>
+						<p class="clearfix"><span>隐私政策</span><span>权利声明</span></p>
+						</div>
+					</dd>
+				</dl>
+				<dl>
+					<dt>其他</dt>
+					<dd class="other">
+						<ul class="clearfix">
+							<li>联系我们</li>
+							<li>腾讯音乐</li>
+							<li>诚聘英才</li>
+							<li>广告服务</li>
+							<li>网上有害信息专区</li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			</div>
+		</div>
+		<!-- 侧导航 -->
+		<div class="asid">
+			<ul>
+				<li>
+					<a href="javascript:;">反馈</a>
+				</li>
+				<li>
+					<a href="javascript:;"><span class="iconfont icon-android"></span></a>
+				</li>
+				<li>
+					<a href="javascript:;"><span class="iconfont icon-apple"></span></a>
+				</li>
+				<li>
+					<a href="javascript:;"><span class="iconfont icon-windows"></span></a>
+				</li>
+				<li>
+					<a href="#nav"><span class="iconfont icon-upward"></span></a>
+				</li>
+			</ul>
+		</div>
+		<!-- 底部播放器 -->
+		<div class="bottom-play">
+			<div class="song-play typepage">
+				<div class="half-circle">
+					<span class="iconfont icon-kaisuo1"></span>
+				</div>
+				<div class="progress left">
+					<img  class="left" src="__PUBLIC__/upload/song/profile/" />
+					<div class="left">
+						<div class="clearfix">
+							<div class="name left"></div>
+							<div class="time right">0/0</div>
+						</div>
+						<div class="current-progress">
+							<div class="current-progress-after"></div>
+						</div>
+					</div>
+				</div>
+				<div class="audio left">
+					<span class="iconfont icon-shangyishoushangyige1"></span>
+					<span class="iconfont icon-bofang"></span>
+					<span class="iconfont icon-shangyishoushangyige"></span>
+				</div>
+				<div class="choice right">
+					<ul class="clearfix left">
+						<li><span class="iconfont icon-aixin"></span></li>
+						<li><span class="iconfont icon-xiazai"></span></li>
+						<li><span class="iconfont icon-pinglun-copy"></span></li>
+						<li><span class="iconfont icon-xunhuan"></span></li>
+						<li><span class="iconfont icon-yinleliebiao song-list">
+							<i>0</i>
+						</span></li>
+					</ul>
+					<div class="left pingzhi">
+						<span>高质</span>
+						<span class="iconfont icon--jiantou_xia"></span>
+					</div>
+					<div class="left volume">
+						<span class="left iconfont icon-volume-high"></span>
+						<div class="left volume-progress">
+							<div class="volume-progress-after"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<audio class="audioplay" src="__PUBLIC__/upload/song/src/周杰伦-稻香.mp3" controls></audio>
+		<script type="text/javascript">
+			const MODEL = "__MODULE__";
+			const PUBLIC = "__PUBLIC__";
+		</script>
+</body>
+</html>
