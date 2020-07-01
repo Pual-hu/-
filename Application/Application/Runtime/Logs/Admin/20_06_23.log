@@ -1,0 +1,432 @@
+[ 2020-06-23T00:18:35+08:00 ] ::1 /gitPhp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009882s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.024864s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.024955s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0329s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0084s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.084549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.084658s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.031497s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.031570s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015919s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015996s ]
+
+[ 2020-06-23T00:18:37+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0443s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000132s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000265s ]
+NOTIC: [8] Undefined variable: name E:\phpStudy\WWW\gitPhp\Application\Runtime\Cache\Admin\04b2a6b64a18511ee4fa2de158c5fd86.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001517s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001900s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002034s ]
+
+[ 2020-06-23T00:23:28+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001774s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0315s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [8] Undefined variable: name E:\phpStudy\WWW\gitPhp\Application\Runtime\Cache\Admin\04b2a6b64a18511ee4fa2de158c5fd86.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010795s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010868s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000532s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000599s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000740s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2020-06-23T00:23:51+08:00 ] ::1 /gitPhp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000741s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000131s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009408s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001010s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2020-06-23T00:23:57+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000716s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000798s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0296s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0008s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined variable: name E:\phpStudy\WWW\gitPhp\Application\Runtime\Cache\Admin\04b2a6b64a18511ee4fa2de158c5fd86.php 第 32 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008779s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008885s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2020-06-23T00:27:43+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000790s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0378s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000112s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.064129s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.064304s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001810s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001574s ]
+
+[ 2020-06-23T00:27:50+08:00 ] ::1 /gitPhp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000091s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002459s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001411s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0356s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000181s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.061257s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061390s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001039s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001222s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001372s ]
+
+[ 2020-06-23T00:28:19+08:00 ] ::1 /gitPhp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000693s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0275s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000517s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000567s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000606s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2020-06-23T00:28:24+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001110s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001246s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0291s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040479s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040577s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001367s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000823s ]
+
+[ 2020-06-23T00:28:28+08:00 ] ::1 /gitPhp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000683s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0280s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009007s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000769s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000831s ]
+
+[ 2020-06-23T00:29:34+08:00 ] ::1 /gitPhp/index.php/Admin/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000673s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0303s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000206s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000987s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001139s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000751s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000816s ]
+
+[ 2020-06-23T00:29:40+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002508s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0294s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043556s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043630s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000509s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000679s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2020-06-23T00:31:47+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001097s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001195s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001328s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0360s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011407s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001079s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001333s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004103s ]
+
+[ 2020-06-23T00:32:25+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0399s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010016s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000846s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2020-06-23T00:33:20+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002940s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0390s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000221s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.058142s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.058280s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000947s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001050s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001352s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001453s ]
+
+[ 2020-06-23T00:33:22+08:00 ] ::1 /gitPhp/index.php/Admin/Song/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001242s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000180s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048445s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001007s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001117s ]
+
+[ 2020-06-23T00:33:40+08:00 ] ::1 /gitPhp/index.php/Admin/Index/adver
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000788s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `adver` [ RunTime:0.0289s ]
+SQL: SELECT * FROM `adver`  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007805s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007890s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000651s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000703s ]
+
+[ 2020-06-23T00:33:41+08:00 ] ::1 /gitPhp/index.php/Admin/Song/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000832s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000139s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029994s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000799s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000926s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001430s ]
+
+[ 2020-06-23T18:46:38+08:00 ] ::1 /gitPhp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.074448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.059283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.059462s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000086s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.358838s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.359146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.040879s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.041155s ]
+
+[ 2020-06-23T18:46:40+08:00 ] ::1 /gitPhp/index.php/Admin/Login/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000575s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.065564s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.065759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000530s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.053821s ]
+INFO: [ app_end ] --END-- [ RunTime:0.053940s ]
+

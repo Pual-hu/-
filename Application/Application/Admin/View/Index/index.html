@@ -1,0 +1,54 @@
+<layout name="layout" />
+<div class="col-lg-12">
+	<table class="table">
+	  <caption>轮播图信息</caption>
+	  <thead>
+	    <tr>
+	      <th>图片描述</th>
+	      <th>图片地址</th>
+	      <th>修改图片</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	  	<?php
+			foreach($loop as $value){
+				$i = $value["id"];
+				echo "<tr><td>$value[descrip]</td><td>$value[src]</td><td>
+				<button class='loopbuton' data-id = '$value[id]' data-toggle='modal' data-target='#myModal'>修改图片</button></td></tr>";
+			}
+	  	?>
+
+	  </tbody>
+	</table>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<form method="post" action="__MODULE__/Index/modification" enctype="multipart/form-data">
+			<div class="modal-body form-group" style="height: 300px;">
+					<input type="file" name="src" /><br>
+					图片描述：<input type="text" class="form-control" name="descrip"><br>
+					<input type="hidden" value = "" name="id">
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">关闭
+				</button>
+				<button type="submit" class="btn btn-primary btn-sub">
+					提交更改
+				</button>
+			</div>
+			</form>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+<script type="text/javascript">
+	$(function(){
+		var btn = $(".loopbuton");
+		var postId = $(document.getElementsByName("id"));
+		btn.click(function(){
+			var index = $(this).attr("data-id");
+			console.log(index);
+			postId.prop({"value":index});
+		})
+	})
+</script>
