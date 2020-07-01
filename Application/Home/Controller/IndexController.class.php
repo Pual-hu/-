@@ -14,7 +14,7 @@ class IndexController extends Controller {
 		$model = D("Songlist");
 		$songModel = D("Song");
 		//娉ㄦ剰杩欓噷鐨剋here鏉′欢闄愬埗銆�
-		$songList = $model->where("name = '姝屽崟涓�'")->select();
+		$songList = $model->where("name = '歌单一'")->select();
 		//鑾峰彇琛ㄥ崟鐨勬墍鏈夌殑姝屾洸銆�
 		$viewcourts = 0;
 		foreach ($songList as $key => $value) {
