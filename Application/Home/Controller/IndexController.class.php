@@ -155,4 +155,13 @@ class IndexController extends Controller {
    public function singer() {
    $this->display();
    }
+   public function zhuce() {
+   $this->display();
+   }
+   public function denglu() {
+   $this->display();
+   }
+   public function huayu() {
+   $this->display();
+   }
 }

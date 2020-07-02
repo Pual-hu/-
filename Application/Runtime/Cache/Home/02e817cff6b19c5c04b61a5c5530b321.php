@@ -3,26 +3,26 @@
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
-		<link href="/test/Public/css/singer.css" type="text/css" rel="stylesheet" />
+		<link href="/gitpp/Public/css/singer.css" type="text/css" rel="stylesheet" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 			
 			<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 			
 			<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-			<link rel="shortcut icon" href="/test/Public/favicon.ico">
-			<link rel="stylesheet" type="text/css" href="/test/Public/css/index.css">
-			<link rel="stylesheet" type="text/css" href="/test/Public/css/base.css">
+			<link rel="shortcut icon" href="/gitpp/Public/favicon.ico">
+			<link rel="stylesheet" type="text/css" href="/gitpp/Public/css/index.css">
+			<link rel="stylesheet" type="text/css" href="/gitpp/Public/css/base.css">
 			<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1888217_0v0lo3u8wanq.css">
-			<script type="text/javascript" src="/test/Public/js/jquery-3.4.1.js"></script>
-			<script type="text/javascript" src="/test/Public/js/index.js"></script>
+			<script type="text/javascript" src="/gitpp/Public/js/jquery-3.4.1.js"></script>
+			<script type="text/javascript" src="/gitpp/Public/js/index.js"></script>
 	</head>
 	<body>
 		<body>
 			<!-- 导航栏 -->
 		<div class="nav" id="nav">
 			<nav>
-				<a class="logo" href="#"><h3><img src="/test/Public/img/音乐 (1).png" /><b>欣欣音乐</b></h3></a>
+				<a class="logo" href="#"><h3><img src="/gitpp/Public/img/音乐 (1).png" /><b>欣欣音乐</b></h3></a>
 				<ul class="clearfix">
 					<li><a href="javascript:void(0)">发现音乐</a></li>
 					<li><a href="javascript:void(0)">下载客户端</a></li>
@@ -43,17 +43,17 @@
 		<div class="content typepage">
 			<!-- 小菜单 -->
 			<div class="nav-small">
-					<a class="old" href="/test/index.php/Home/Index/index">推荐</a>
-					<a  href="/test/index.php/Home/Index/paihang">排行榜</a>
-					<a  href="/test/index.php/Home/Index/singer">歌手</a>
-					<a  href="/test/index.php/Home/Index/gedan">歌单</a>
-					<a  href="/test/index.php/Home/Index/mv">MV</a>
+					<a class="old" href="/gitpp/index.php/Home/Index/index">推荐</a>
+					<a  href="/gitpp/index.php/Home/Index/paihang">排行榜</a>
+					<a  href="/gitpp/index.php/Home/Index/singer">歌手</a>
+					<a  href="/gitpp/index.php/Home/Index/gedan">歌单</a>
+					<a  href="/gitpp/index.php/Home/Index/mv">MV</a>
 			</div>
 						<section>
 							<div class="container">
 								<div class="bol1">
 										<ul class="udi">
-											<li id="firl">鐑棬</li>
+											<li id="firl">热 门</li>
 											<li><a>A</a></li>
 											<li><a>B</a></li>
 											<li><a>C</a></li>
@@ -85,108 +85,153 @@
 											
 										</ul>
 										<ul class="udl">
-											<li id="firl">鍏ㄩ儴</li>
-											<li><a>鍗庤鐢�</a></li>
-											<li><a>鍗庤濂�</a></li>
-											<li><a>鍗庤缁勫悎</a></li>
-											<li><a>鏃ラ煩鐢�</a></li>
-											<li><a>鏃ラ煩濂�</a></li>
-											<li><a>鏃ラ煩缁勫悎</a></li>
-											<li><a>娆х編鐢�</a></li>
-											<li><a>娆х編濂�</a></li>
-											<li><a>娆х編缁勫悎</a></li>
-											<li><a>鍏朵粬</a></li>
+											<li id="firl">全部</li>
+											<li><a>华语男</a></li>
+											<li><a>华语女</a></li>
+											<li><a>华语组合</a></li>
+											<li><a>日韩男</a></li>
+											<li><a>日韩女</a></li>
+											<li><a>日韩组合</a></li>
+											<li><a>欧美男</a></li>
+											<li><a>欧美女</a></li>
+											<li><a>欧美组合</a></li>
+											<li><a>其他</a></li>
 									</ul>
 										</div>
 										<div class="row">
 										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
 											<a>
-											<img src="/test/Public/img/jay.jpg" class="im2">
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
 											</a>
 											<div class="ziti">
 											<span>
-											鍛ㄦ澃浼�</span> 
+											周杰伦</span> 
 											<br />
-											 <small>1150棣栨瓕</small>
-											 </div>
-										</div>
-										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
-											<a >
-											<img src="/test/Public/img/jay.jpg" class="im2">
-											</a>
-											<div class="ziti">
-											<span>
-											鍛ㄦ澃浼�</span> 
-											<br />
-											 <small>1150棣栨瓕</small>
+											 <small>1150首歌</small>
 											 </div>
 										</div>
 										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
 											<a>
-											<img src="/test/Public/img/jay.jpg" class="im2">
+											<img src="/gitpp/Public/img/xzq.jpg" class="im2">
 											</a>
 											<div class="ziti">
 											<span>
-											鍛ㄦ澃浼�</span> 
+											薛之谦</span> 
 											<br />
-											 <small>1150棣栨瓕</small>
-											 </div>
-										</div>
-										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
-											<a >
-											<img src="/test/Public/img/jay.jpg" class="im2">
-											</a>
-											<div class="ziti">
-											<span>
-											鍛ㄦ澃浼�</span> 
-											<br />
-											 <small>1150棣栨瓕</small>
+											 <small>170首歌</small>
 											 </div>
 										</div>
 										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
 											<a>
-											<img src="/test/Public/img/jay.jpg" class="im2">
+											<img src="/gitpp/Public/img/qh.jpg" class="im2">
 											</a>
 											<div class="ziti">
 											<span>
-											鍛ㄦ澃浼�</span> 
+											杨千嬅</span> 
 											<br />
-											 <small>1150棣栨瓕</small>
-											 </div>
-										</div>
-										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
-											<a >
-											<img src="/test/Public/img/jay.jpg" class="im2">
-											</a>
-											<div class="ziti">
-											<span>
-											鍛ㄦ澃浼�</span> 
-											<br />
-											 <small>1150棣栨瓕</small>
-											 </div>
-										</div>
-										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
-											<a >
-											<img src="/test/Public/img/jay.jpg" class="im2">
-											</a>
-											<div class="ziti">
-											<span>
-											鍛ㄦ澃浼�</span> 
-											<br />
-											 <small>1150棣栨瓕</small>
+											 <small>320首歌</small>
 											 </div>
 										</div>
 										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
 											<a>
-											<img src="/test/Public/img/jay.jpg" class="im2">
+											<img src="/gitpp/Public/img/cyx.jpg" class="im2">
 											</a>
 											<div class="ziti">
 											<span>
-											鍛ㄦ澃浼�</span> 
+											陈奕迅</span> 
 											<br />
-											 <small>1150棣栨瓕</small>
+											 <small>840首歌</small>
 											 </div>
 										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										<div class="col-sm-6 col-md-3 im1" style="margin-top: 50px;">
+											<a>
+											<img src="/gitpp/Public/img/jay.jpg" class="im2">
+											</a>
+											<div class="ziti">
+											<span>
+											周杰伦</span> 
+											<br />
+											 <small>1150首歌</small>
+											 </div>
+										</div>
+										
 										
 										</div>
 							</div>

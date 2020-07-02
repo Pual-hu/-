@@ -1,0 +1,850 @@
+[ 2020-07-02T22:27:28+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.1017s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0185s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0184s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '姝屽崟涓�' )  [ RunTime:0.0390s ]
+NOTIC: [8] Undefined variable: i E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 27 行.
+NOTIC: [8] Undefined variable: i E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 28 行.
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0009s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:28:42+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0218s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0115s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:30:15+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000151s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001759s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0103s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:30:42+08:00 ] ::1 /gitpp/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000437s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0287s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0170s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:34:40+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002006s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0237s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0143s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0016s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0014s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0005s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:35:24+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.009518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001474s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001753s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0304s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:38:58+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001057s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001677s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0346s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0091s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:39:52+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000957s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004174s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0197s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:41:29+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001289s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0109s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0003s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:41:33+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000072s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000823s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0295s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 21 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 42 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+ERR: 模板不存在:./Application/Home/View/Index/index.html
+
+[ 2020-07-02T22:45:41+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000684s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003227s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0298s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0111s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000254s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.070513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.070620s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.004592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001306s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001454s ]
+
+[ 2020-07-02T22:50:30+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000194s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001116s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0255s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0137s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0124s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0018s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000150s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000212s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038468s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001550s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001724s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001848s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002149s ]
+
+[ 2020-07-02T22:50:32+08:00 ] ::1 /gitpp/index.php/Home/Index/paihang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000534s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000971s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052305s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000900s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001312s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001406s ]
+
+[ 2020-07-02T22:50:35+08:00 ] ::1 /gitpp/index.php/Home/Index/singer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000033s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000638s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001275s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000216s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000383s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029406s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001305s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2020-07-02T22:50:42+08:00 ] ::1 /gitpp/index.php/Home/Index/gedan
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000491s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000546s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000145s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047013s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047085s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001004s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001149s ]
+
+[ 2020-07-02T22:50:42+08:00 ] ::1 /gitpp/index.php/Home/Index/src/img/%E9%9F%B3%E4%B9%90%20(1).png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+
+[ 2020-07-02T22:50:45+08:00 ] ::1 /gitpp/index.php/Home/Index/mv
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000061s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022819s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022899s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000496s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2020-07-02T22:50:45+08:00 ] ::1 /gitpp/index.php/Home/Index/src/img/%E9%9F%B3%E4%B9%90%20(1).png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000135s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002054s ]
+
+[ 2020-07-02T22:51:20+08:00 ] ::1 /gitpp/index.php/Home/Index/paihang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001514s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000265s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000595s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036837s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000686s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001300s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001416s ]
+
+[ 2020-07-02T22:51:21+08:00 ] ::1 /gitpp/index.php/Home/Index/singer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000676s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000194s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000422s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030336s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000414s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000913s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001027s ]
+
+[ 2020-07-02T22:51:22+08:00 ] ::1 /gitpp/index.php/Home/Index/singer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000813s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000828s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000304s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000505s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039106s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000692s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001617s ]
+
+[ 2020-07-02T22:52:10+08:00 ] ::1 /gitpp/index.php/Home/Index/paihang
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000464s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000100s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023637s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000979s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002499s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002660s ]
+
+[ 2020-07-02T22:52:10+08:00 ] ::1 /gitpp/index.php/Home/Index/singer
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000193s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000473s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019785s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019913s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000764s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001563s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001698s ]
+
+[ 2020-07-02T22:52:13+08:00 ] ::1 /gitpp/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0263s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000177s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000251s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.037043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037158s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000695s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000850s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001425s ]
+
+[ 2020-07-02T22:58:31+08:00 ] ::1 /gitpp/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000832s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000745s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0713s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0534s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0260s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0013s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0007s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0164s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000267s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000401s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.067567s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.067724s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001225s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001166s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001306s ]
+
+[ 2020-07-02T22:58:33+08:00 ] ::1 /gitpp/index.php/Home/Index/zhuce
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000034s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000712s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001089s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\phpStudy\WWW\gitpp\Application\Runtime\Cache\Home\af97035d120c842fd4405ba933de9cb4.php 第 51 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000837s ]
+
+[ 2020-07-02T22:58:33+08:00 ] ::1 /gitpp/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001240s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001406s ]
+ERR: 非法操作:verify
+
+[ 2020-07-02T22:58:36+08:00 ] ::1 /gitpp/index.php/Home/Index/denglu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001135s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001278s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000146s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000303s ]
+NOTIC: [8] Use of undefined constant verify - assumed 'verify' E:\phpStudy\WWW\gitpp\Application\Runtime\Cache\Home\ce6c5eaee07957a18502764a60ee687a.php 第 33 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.051602s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.051771s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000528s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000646s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000712s ]
+
+[ 2020-07-02T22:58:36+08:00 ] ::1 /gitpp/index.php/Home/Index/verify.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001216s ]
+ERR: 非法操作:verify
+
+[ 2020-07-02T22:58:49+08:00 ] ::1 /gitpp/index.php/Home/Index/huayu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000350s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000065s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000141s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046749s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046864s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000562s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+
+[ 2020-07-02T22:59:01+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001611s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0006s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0012s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0101s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000394s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000555s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060994s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.061204s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000937s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001075s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002141s ]
+
+[ 2020-07-02T22:59:28+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001532s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0185s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000257s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000382s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036311s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036461s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001476s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001639s ]
+
+[ 2020-07-02T22:59:40+08:00 ] ::1 /gitpp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `loop` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `loop`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `songlist` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0133s ]
+SQL: SELECT * FROM `songlist` WHERE ( name = '歌单一' )  [ RunTime:0.0004s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: song_id E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 22 行.
+SQL: SELECT * FROM `song`  [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: name E:\phpStudy\WWW\gitpp\Application\Home\Controller\IndexController.class.php 第 44 行.
+SQL: SHOW COLUMNS FROM `song` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `song` WHERE `name` = null LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000234s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027321s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027413s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000513s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000565s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2020-07-02T22:59:44+08:00 ] ::1 /gitpp/index.php/Home/Index/huayu
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000691s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000746s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000151s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009733s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009814s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000536s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000598s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000739s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000812s ]
+

@@ -1,0 +1,70 @@
+.hen-lie a {
+	cursor: pointer;
+	color: #111111;
+}
+.hen-lie ul li {
+	position: relative;
+	list-style: none;
+	display: inline;
+	flex-wrap: wrap;
+	margin-top: 60px;
+	padding-left: 30px;
+	font-size: large;
+	color: #555555;
+	font-weight: 50;
+}
+.hen-lie ul{
+	margin-left: 120px;
+}
+ .hen-lie {
+	 margin-top: 30px;
+ }
+ 
+ .hen-lie li:first-child {
+	 background-color: yellow;
+	 border: 1px solid white;
+	 border-radius: 30px;
+	 text-align: center;
+	 padding-right: 24px;
+ }
+ small {
+	 display: block;
+	 margin-top: 10px;
+	 font-weight: 100;
+ }
+.ones  {
+	font-size: large;
+	font-weight: 800;
+	display: block;
+	margin-top: 10px;
+}
+.col-md-3 {
+	position: relative;
+}
+.row img {
+	width: 250px;
+	height: 188px;
+}
+.row img:hover {
+	 transform: scale(1.1);
+	 border: 1px solid skyblue;
+}
+.glyphicon-play {
+	position: absolute;
+	top: -110px !important;
+}
+.time1 {
+	position: absolute;
+	top: 170px;
+	color: white;
+	left: 235px;
+}
+.glyphicon-play-circle {
+	position: absolute;
+	top: -170px !important;
+	left: 40px;
+	opacity: 0;
+}
+.glyphicon-play-circle:hover {
+	opacity: 1;
+}

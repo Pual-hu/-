@@ -3,19 +3,19 @@
 	<head>
 		<meta charset="utf-8">
 		<title></title>
-		<link href="/test/Public/css/gedan.css" type="text/css" rel="stylesheet" />
+		<link href="/gitpp/Public/css/gedan.css" type="text/css" rel="stylesheet" />
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 			
 			<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 			
 			<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
 			<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-			<link rel="shortcut icon" href="/test/Public/favicon.ico">
-			<link rel="stylesheet" type="text/css" href="/test/Public/css/index.css">
-			<link rel="stylesheet" type="text/css" href="/test/Public/css/base.css">
+			<link rel="shortcut icon" href="/gitpp/Public/favicon.ico">
+			<link rel="stylesheet" type="text/css" href="/gitpp/Public/css/index.css">
+			<link rel="stylesheet" type="text/css" href="/gitpp/Public/css/base.css">
 			<link rel="stylesheet" type="text/css" href="https://at.alicdn.com/t/font_1888217_0v0lo3u8wanq.css">
-			<script type="text/javascript" src="/test/Public/js/jquery-3.4.1.js"></script>
-			<script type="text/javascript" src="/test/Public/js/index.js"></script>
+			<script type="text/javascript" src="/gitpp/Public/js/jquery-3.4.1.js"></script>
+			<script type="text/javascript" src="/gitpp/Public/js/index.js"></script>
 	</head>
 	<body>
 		<div class="nav" id="nav">
@@ -41,11 +41,11 @@
 				<div class="content typepage">
 					<!-- 小菜单 -->
 					<div class="nav-small">
-							<a class="old" href="/test/index.php/Home/Index/index">推荐</a>
-					<a  href="/test/index.php/Home/Index/paihang">排行榜</a>
-					<a  href="/test/index.php/Home/Index/singer">歌手</a>
-					<a  href="/test/index.php/Home/Index/gedan">歌单</a>
-					<a  href="/test/index.php/Home/Index/mv">MV</a>
+							<a class="old" href="/gitpp/index.php/Home/Index/index">推荐</a>
+					<a  href="/gitpp/index.php/Home/Index/paihang">排行榜</a>
+					<a  href="/gitpp/index.php/Home/Index/singer">歌手</a>
+					<a  href="/gitpp/index.php/Home/Index/gedan">歌单</a>
+					<a  href="/gitpp/index.php/Home/Index/mv">MV</a>
 					</div>
 <!-- 内容 -->
 							<section>
@@ -123,7 +123,7 @@
 							<div class="row">
 							<div class="col-sm-6 col-md-3" >
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t1.jpg">
+							<img src="/gitpp/Public/img/t1.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -133,7 +133,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t2.jpg">
+							<img src="/gitpp/Public/img/t2.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -143,7 +143,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<div style="background-image:url(/test/Public/img/lufei.gif); width:250px; height:188px; margin:0 auto;"></div>
+							<div style="background-image:url(/gitpp/Public/img/lufei.gif); width:250px; height:188px; margin:0 auto;"></div>
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -153,7 +153,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t2.jpg">
+							<img src="/gitpp/Public/img/t2.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -163,7 +163,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t2.jpg">
+							<img src="/gitpp/Public/img/t2.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -173,7 +173,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t2.jpg">
+							<img src="/gitpp/Public/img/t2.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -183,7 +183,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t2.jpg">
+							<img src="/gitpp/Public/img/t2.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -193,7 +193,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t2.jpg">
+							<img src="/gitpp/Public/img/t2.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
@@ -203,7 +203,7 @@
 							</div>
 							<div class="col-sm-6 col-md-3">
 								<a href="#" class="thumbnail">
-							<img src="/test/Public/img/t2.jpg">
+							<img src="/gitpp/Public/img/t2.jpg">
 							<span class="glyphicon glyphicon-play-circle"></span>
 							</a>
 							<blockquote>
